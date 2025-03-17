@@ -75,6 +75,18 @@
 		</dependency>
 	</dependencies>
 
+	<repositories>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/veekthorcodes/forge-remote</url>
+		</repository>
+	</repositories>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/veekthorcodes/forge-remote</url>
+		</repository>
+	</distributionManagement>
 	<build>
 		<plugins>
 		</plugins>
